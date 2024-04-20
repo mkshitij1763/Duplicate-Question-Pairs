@@ -1,4 +1,4 @@
-Here's a README file for your project:
+Sure, here's the updated README file with information regarding the Streamlit app:
 
 ---
 
@@ -18,7 +18,7 @@ The project includes the following features:
 - **Feature Engineering**: Various features are engineered from the text data, including common words, total words, token features, length features, and fuzzy features.
 - **Visualization**: Data visualization techniques such as pair plots and dimensionality reduction (using t-SNE) are employed to understand the data distribution and relationships between features.
 - **Modeling**: Machine learning models, including Random Forest and XGBoost, are trained to classify question pairs as duplicate or non-duplicate.
-- **Web Application**: The trained model is deployed as a web application where users can input question pairs and receive predictions on whether they are duplicates.
+- **Streamlit Web Application**: The trained model is deployed as a Streamlit web application where users can input question pairs and receive predictions on whether they are duplicates.
 
 ## Dataset
 
@@ -34,7 +34,7 @@ To replicate or build upon this project, follow these steps:
 4. **Feature Engineering**: Engineer relevant features from the text data to represent each question pair.
 5. **Model Training**: Train machine learning models using the engineered features to classify question pairs.
 6. **Evaluation**: Evaluate model performance using appropriate metrics such as accuracy, precision, recall, and F1-score.
-7. **Deployment**: Deploy the trained model, either as a standalone application or integrate it into an existing platform.
+7. **Deployment**: Deploy the trained model, either as a standalone application or integrate it into an existing platform. Additionally, deploy the Streamlit web application for user interaction.
 
 ## Files
 
@@ -42,6 +42,16 @@ To replicate or build upon this project, follow these steps:
 - **cv.pkl**: Pickled file containing the CountVectorizer used for text transformation.
 - **README.md**: This file providing an overview of the project, usage instructions, and other relevant details.
 - **Code Files**: Python scripts containing the code for data preprocessing, feature engineering, model training, and web application deployment.
+
+## Streamlit Web Application
+
+The Streamlit web application allows users to input pairs of questions and receive predictions on whether they are duplicates. To run the Streamlit app, execute the following command in the terminal:
+
+```
+streamlit run app.py
+```
+
+The application will launch in your web browser, where you can interact with it.
 
 ## Credits
 
